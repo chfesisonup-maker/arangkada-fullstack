@@ -1,0 +1,10 @@
+{
+  "name": "arangkada-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix arangkada-fullstack start",
+    "dev": "npm --prefix arangkada-fullstack run dev",
+    "install-all": "npm --prefix arangkada-fullstack install"
+  }
+}

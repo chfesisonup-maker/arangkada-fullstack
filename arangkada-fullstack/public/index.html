@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#130424" />
+  <meta name="description" content="ARANGKADA — AI-Driven Public Transportation Decision Support & Dispatch Management Platform" />
+  <title>ARANGKADA — Transportation Operations & Decision Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- ───── Splash / Page Load Screen ───── -->
+  <div id="splash-screen">
+    <div class="splash-bg-orb splash-orb-1"></div>
+    <div class="splash-bg-orb splash-orb-2"></div>
+    <div class="splash-bg-orb splash-orb-3"></div>
+    <div class="splash-grid"></div>
+    <div class="splash-content">
+      <div class="splash-radar-container">
+        <div class="splash-orbital-ring ring-outer"></div>
+        <div class="splash-orbital-ring ring-mid"></div>
+        <div class="splash-orbital-ring ring-inner">
+          <span class="orbit-particle"></span>
+        </div>
+        <div class="splash-logo-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 16l-4-4 4-4"></path>
+            <path d="M17 8l4 4-4 4"></path>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+          </svg>
+        </div>
+      </div>
+
+      <div class="splash-brand-block">
+        <span class="splash-logo-text">ARANGKADA</span>
+        <div class="splash-badge">
+          <span class="splash-badge-sparkle">✦</span>
+          <span>NEURAL DISPATCH SYSTEM</span>
+        </div>
+      </div>
+      <div class="splash-tagline">AI Transportation Decision Support</div>
+
+      <div class="splash-loader-box">
+        <div class="splash-loader-header">
+          <span id="splashStatusText">Initializing system…</span>
+          <span class="splash-counter" id="splashPercent">0%</span>
+        </div>
+        <div class="splash-loader-track">
+          <div class="splash-loader-bar" id="splashBar"></div>
+        </div>
+      </div>
+
+      <div class="splash-status-strip">
+        <span class="splash-status-dot"></span>
+        <span>Pangasinan Transit Grid • GPS Telemetry Sync</span>
+      </div>
+    </div>
+  </div>
+  <!-- ───────────────────────────────────── -->
+
+  <div id="app"></div>
+  <div id="toast-root" class="toast-root"></div>
+  <div id="modal-root"></div>
+  <script src="app.js"></script>
+</body>
+</html>

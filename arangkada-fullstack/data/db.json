@@ -1,0 +1,175 @@
+{
+  "requests": [],
+  "queue": [
+    {
+      "pos": 1,
+      "id": "J-008",
+      "plate": "NAB 1908",
+      "name": "Ramon Cruz",
+      "status": "Ready",
+      "clear": "CLEARED"
+    },
+    {
+      "pos": 2,
+      "id": "J-014",
+      "plate": "NAB 2147",
+      "name": "Juan Dela Cruz",
+      "status": "Waiting",
+      "clear": "Clear for Departure"
+    },
+    {
+      "pos": 3,
+      "id": "J-027",
+      "plate": "NDC 5821",
+      "name": "Mark Reyes",
+      "status": "Waiting",
+      "clear": "In line"
+    },
+    {
+      "pos": 4,
+      "id": "J-031",
+      "plate": "NCA 3301",
+      "name": "Mario Reyes",
+      "status": "Waiting",
+      "clear": "In line"
+    },
+    {
+      "pos": 5,
+      "id": "J-045",
+      "plate": "NBD 8821",
+      "name": "Pedro Garcia",
+      "status": "Waiting",
+      "clear": "In line"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "J-008",
+      "name": "Ramon Cruz",
+      "plate": "NAB 1908",
+      "status": "On the Way",
+      "speed": "60 km/h",
+      "color": "green",
+      "top": "44%",
+      "left": "27%"
+    },
+    {
+      "id": "J-014",
+      "name": "Juan Dela Cruz",
+      "plate": "NAB 2147",
+      "status": "On the Way",
+      "speed": "45 km/h",
+      "color": "orange",
+      "top": "50%",
+      "left": "45%"
+    },
+    {
+      "id": "J-027",
+      "name": "Mark Reyes",
+      "plate": "NDC 5821",
+      "status": "Delayed",
+      "speed": "Stopped",
+      "color": "red",
+      "top": "58%",
+      "left": "63%"
+    },
+    {
+      "id": "J-019",
+      "name": "Miguel Santos",
+      "plate": "NAB 3219",
+      "status": "On the Way",
+      "speed": "55 km/h",
+      "color": "orange",
+      "top": "38%",
+      "left": "55%"
+    }
+  ],
+  "advisories": [
+    {
+      "id": "ADV-1788975414511",
+      "title": "Traffic",
+      "message": "Mangaldan traffic",
+      "audience": "All drivers",
+      "createdBy": "Maria Santos",
+      "createdAt": "2026-09-09T17:36:54.511Z"
+    }
+  ],
+  "messages": [],
+  "settings": {
+    "displayName": "Maria Santos",
+    "assignedTerminal": "San Fabian Terminal",
+    "email": "maria.santos@arangkada.ph",
+    "notifications": {
+      "incidents": true,
+      "dutyRequests": true,
+      "queueChanges": true,
+      "sound": false
+    }
+  },
+  "users": [
+    {
+      "id": "staff-001",
+      "name": "Maria Santos",
+      "role": "dispatcher",
+      "email": "maria.santos@arangkada.ph",
+      "staffId": "D-SP-001",
+      "terminal": "San Fabian Terminal",
+      "passwordHash": "$2b$10$IZioWLKdCApTkYPjv8caQ.p0wx.KG9Q5ClUcxFvPMhHAJe1a4XSNC",
+      "resetToken": {
+        "code": "998356",
+        "expiresAt": 1789143290144,
+        "verified": false
+      }
+    },
+    {
+      "id": "admin-001",
+      "name": "ARANGKADA Admin",
+      "role": "admin",
+      "email": "admin@arangkada.ph",
+      "staffId": "ADM-001",
+      "terminal": "System Administration",
+      "passwordHash": "$2b$10$N6vL7tyDUeQABSmAgEMaeeBV/DQ/iB.DsqGWMuu5O2DEFKhgecMv."
+    },
+    {
+      "id": "staff-1789113921743",
+      "name": "Test Dispatcher",
+      "role": "dispatcher",
+      "email": "test.dispatcher@arangkada.ph",
+      "staffId": "D-SP-204",
+      "terminal": "San Fabian Terminal",
+      "passwordHash": "$2b$10$UZR/mHPqjLL/OQh0PAfJN.YrnpokHTg/D/CGQsCK.IwQLTsQVyix6"
+    },
+    {
+      "id": "staff-1789114028876",
+      "name": "Eduardo Rivera",
+      "role": "dispatcher",
+      "email": "eduardo.rivera@arangkada.ph",
+      "staffId": "D-SP-005",
+      "terminal": "San Fabian Terminal",
+      "passwordHash": "$2b$10$rA3fOKTXz5o1zZ0wHhxVWeVGp5BzpYH5.R8lj7D77/6j8C5w9Bc2e"
+    },
+    {
+      "id": "staff-1789142856577",
+      "name": "Charls Denver",
+      "role": "admin",
+      "email": "denver.op28@gmail.com",
+      "staffId": "03-01-2425-0909",
+      "terminal": "San Fabian Terminal",
+      "passwordHash": "$2b$10$nXOoqgvXsdGtT3b4rq3ZO.UmVa0fe7UN.zZJDMsq3ElOnB2FDZScm",
+      "resetToken": {
+        "code": "309941",
+        "expiresAt": 1789143517280,
+        "verified": true
+      }
+    },
+    {
+      "id": "staff-1789144052992",
+      "name": "Charls Denver",
+      "role": "admin",
+      "email": "denver.op281@gmail.com",
+      "staffId": "ASD",
+      "terminal": "San Fabian Terminal",
+      "passwordHash": "$2b$10$E38T5iH5bpLqviTuEj9pI.uP4VHO5hfvJJZ50VLA2/dPJam9aoC8e"
+    }
+  ]
+}
